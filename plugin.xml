@@ -8,13 +8,13 @@
   <repo>https://github.com/akofman/cordova-plugin-add-swift-support.git</repo>
 
   <platform name="ios">
-    <hook type="after_prepare" src="src/add-swift-support.js" />
-    <hook type="after_platform_add" src="src/add-swift-support.js" />
-    <hook type="after_plugin_add" src="src/add-swift-support.js" />
+    <hook src="src/add-swift-support.js" type="after_prepare" />
+    <hook src="src/add-swift-support.js" type="after_platform_add" />
+    <hook src="src/add-swift-support.js" type="after_plugin_add" />
   </platform>
   <platform name="osx">
-    <hook type="after_prepare" src="src/add-swift-support.js" />
-    <hook type="after_platform_add" src="src/add-swift-support.js" />
-    <hook type="after_plugin_add" src="src/add-swift-support.js" />
+    <hook src="src/add-swift-support.js" type="after_prepare" />
+    <hook src="src/add-swift-support.js" type="after_platform_add" />
+    <hook src="src/add-swift-support.js" type="after_plugin_add" />
   </platform>
 </plugin>
