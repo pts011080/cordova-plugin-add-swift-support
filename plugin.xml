@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-add-swift-support" version="2.0.5">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-add-swift-support" version="2.0.6">
 
   <name>AddSwiftSupport</name>
   <license>Apache 2.0</license>
   <description>Cordova plugin to add swift support</description>
   <keywords>cordova,phonegap,swift,plugin</keywords>
-  <repo>https://github.com/akofman/cordova-plugin-add-swift-support.git</repo>
+  <repo>https://github.com/pts011080/cordova-plugin-add-swift-support.git</repo>
 
   <hook type="before_plugin_install" src="hooks/dependencyInstaller.js"/>
   <platform name="ios">
