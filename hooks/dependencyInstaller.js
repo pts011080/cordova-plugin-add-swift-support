@@ -1,3 +1,4 @@
+console.log("Running hook to npm install hooks pre-requisites");
 module.exports = function (context) {
   var shell = context.requireCordovaModule('shelljs');
 
