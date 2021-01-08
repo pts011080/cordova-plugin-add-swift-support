@@ -15,6 +15,8 @@
 *  - It updates the SWIFT_VERSION to 4.0.
 */
 
+const xcode = require("xcode");
+
 const fs = require('fs');
 const path = require('path');
 // const xcode = require('xcode');
@@ -24,7 +26,7 @@ const glob = require('glob');
 
 module.exports = context => {
   const projectRoot = context.opts.projectRoot;
-  const xcode = context.requireCordovaModule("xcode");
+  //const xcode = context.requireCordovaModule("xcode");
 
   // This script has to be executed depending on the command line arguments, not
   // on the hook execution cycle.
