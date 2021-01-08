@@ -15,13 +15,13 @@
 *  - It updates the SWIFT_VERSION to 4.0.
 */
 
-var xcode = require("xcode");
+const xcode = require("xcode");
 
 const fs = require('fs');
 const path = require('path');
 // const xcode = require('xcode');
 const childProcess = require('child_process');
-var semver = require('semver');
+const semver = require('semver');
 const glob = require('glob');
 
 module.exports = context => {
